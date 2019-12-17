@@ -24,7 +24,7 @@ services:
       - HUB_HOST=hub
       - BROWSER=chrome
       - MODULE=AllTests.xml
-      -ENVIRONMENT=uat
-      -FILENAME=placeOrders01.csv
+      - ENVIRONMENT=uat
+      - FILENAME=placeOrders01.csv
     volumes:
       - ./output/result:/usr/share/automation/test-output   
